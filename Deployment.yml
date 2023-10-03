@@ -12,4 +12,4 @@
     command : sudo systemctl start docker
 
   - name: Deploy Docker Container
-    command: docker run -itd -p 8084:8081 cbabu85/apr-insure-project:1.0
+    command: docker run -itd -p 8084:8081 chinmaygbhat/Insureproject:1.0 
